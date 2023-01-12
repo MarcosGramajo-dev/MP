@@ -70,7 +70,7 @@
 
       const getMpLink = async () => {
         try {
-          const res = await fetch('http://localhost:8080/payment');
+          const res = await fetch('payment');
           const data = await res.json();
           console.log(data);
           window.location.href = data;
