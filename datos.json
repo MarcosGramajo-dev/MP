@@ -1,0 +1,83 @@
+{
+  "additional_info": "",
+  "auto_return": "approved",
+  "back_urls": {
+    "failure": "http://www.failure.com",
+    "pending": "http://www.pending.com",
+    "success": "https://www.success.com"
+  },
+  "binary_mode": false,
+  "client_id": "2539408491082039",
+  "collector_id": 1243177028,
+  "coupon_code": null,
+  "coupon_labels": null,
+  "date_created": "2022-11-19T19:48:53.396-04:00",
+  "date_of_expiration": null,
+  "expiration_date_from": null,
+  "expiration_date_to": null,
+  "expires": false,
+  "external_reference": "Reference_1234",
+  "id": "1243177028-949d52a1-82af-4f1d-9d26-6c962389f456",
+  "init_point": "https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=1243177028-949d52a1-82af-4f1d-9d26-6c962389f456",
+  "internal_metadata": null,
+  "items": [
+    {
+      "id": "item-ID-1234",
+      "category_id": "art",
+      "currency_id": "ARS",
+      "description": "Descripción del Item",
+      "picture_url": "https://www.mercadopago.com/org-img/MP3/home/logomp3.gif",
+      "title": "Mi producto",
+      "quantity": 1,
+      "unit_price": 1000
+    }
+  ],
+  "marketplace": "NONE",
+  "marketplace_fee": 0,
+  "metadata": {},
+  "notification_url": "https://www.your-site.com/ipn",
+  "operation_type": "regular_payment",
+  "payer": {
+    "phone": { "area_code": "11", "number": "4444-4444" },
+    "address": {
+      "zip_code": "5700",
+      "street_name": "Street",
+      "street_number": "123"
+    },
+    "email": "user@email.com",
+    "identification": { "number": "12345678", "type": "DNI" },
+    "name": "Juan",
+    "surname": "Lopez",
+    "date_created": null,
+    "last_purchase": null
+  },
+  "payment_methods": {
+    "default_card_id": null,
+    "default_payment_method_id": null,
+    "excluded_payment_methods": [{ "id": "master" }],
+    "excluded_payment_types": [{ "id": "ticket" }],
+    "installments": 6,
+    "default_installments": null
+  },
+  "processing_modes": null,
+  "product_id": null,
+  "redirect_urls": { "failure": "", "pending": "", "success": "" },
+  "sandbox_init_point": "https://sandbox.mercadopago.com.ar/checkout/v1/redirect?pref_id=1243177028-949d52a1-82af-4f1d-9d26-6c962389f456",
+  "site_id": "MLA",
+  "shipments": {
+    "default_shipping_method": null,
+    "receiver_address": {
+      "zip_code": "",
+      "street_name": "",
+      "street_number": null,
+      "floor": "",
+      "apartment": "",
+      "city_name": null,
+      "state_name": null,
+      "country_name": null
+    }
+  },
+  "statement_descriptor": "MINEGOCIO",
+  "total_amount": null,
+  "last_updated": null
+}

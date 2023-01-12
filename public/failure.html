@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Alexandria', sans-serif;
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400&display=swap');
+
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      header {
+        width: 100vw;
+        height: 70px;
+        background-color: #009ee3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+      }
+
+      section {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      section h2 {
+        margin: 15px;
+      }
+
+      section button {
+        padding: 15px;
+        font: 1.5em;
+        color: #fff;
+        background-color: #009ee3;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      section button:active {
+        background-color: rgb(0, 158, 227, 0.7);
+      }
+
+      .failure h2 {
+        background-color: #ff2301;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>BIENVENIDOS AL SERVICIO DE PAGO</h1>
+    </header>
+
+    <section class="failure">
+      <h2>SU PAGO FUE RECHAZADO</h2>
+    </section>
+  </body>
+</html>
